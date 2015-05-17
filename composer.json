@@ -10,7 +10,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/jquery.lazyload": "*"
+        "bower-asset/jquery.lazyload": "~1.9.0"
     },
     "autoload": {
         "psr-4": {
