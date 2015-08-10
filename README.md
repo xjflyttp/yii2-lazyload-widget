@@ -22,7 +22,7 @@ In View
 use yii\web\View;
 use xj\lazyload\LazyloadAsset;
 LazyloadAsset::register($this);
-$view->registerJs('$("img.lazy").lazyload();'
+$this->registerJs('$("img.lazy").lazyload();'
         , View::POS_READY);
 ```
 
