@@ -1,7 +1,8 @@
 yii2-lazyload-widget
 ====================
-
+```
 http://www.appelsiini.net/projects/lazyload
+```
 
 composer.json
 -----
@@ -21,7 +22,7 @@ In View
 use yii\web\View;
 use xj\lazyload\LazyloadAsset;
 LazyloadAsset::register($this);
-$view->registerJs('$("img.lazy").lazyload();'
+$this->registerJs('$("img.lazy").lazyload();'
         , View::POS_READY);
 ```
 

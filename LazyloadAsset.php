@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class LazyloadAsset extends AssetBundle {
 
-    public $sourcePath = '@vendor/xj/yii2-lazyload-widget/assets';
+    public $sourcePath = '@bower/jquery.lazyload';
     public $js = ['jquery.lazyload.js'];
     public $depends = ['yii\web\JqueryAsset'];
 
